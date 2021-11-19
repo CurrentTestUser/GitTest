@@ -15,6 +15,7 @@ namespace GitTest
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            int var = 64;
 
             Test = new Test();
 
