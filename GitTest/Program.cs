@@ -27,9 +27,9 @@ namespace GitTest
 
         private static byte GetRandomByte()
         {
-            byte[] b = new byte[1];
-            new Random().NextBytes(b);
-            return b[0];
+            byte[] b3 = new byte[1];
+            new Random().NextBytes(b3);
+            return b3[0];
         }
 
     }
