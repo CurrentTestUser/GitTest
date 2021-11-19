@@ -5,6 +5,10 @@ namespace GitTest
 {
     class Program
     {
+        public string MyProperty { get; set; }
+
+
+
         public static Test Test;
         public static byte LastByte;
 
@@ -27,9 +31,14 @@ namespace GitTest
 
         private static byte GetRandomByte()
         {
+
+            ====== HEADER
             byte[] b3 = new byte[1];
+     <<<<<<<<<< Text
             new Random().NextBytes(b3);
+<<<<<<<<<<<< Text 2
             return b3[0];
+    ======== END
         }
 
     }
