@@ -15,6 +15,7 @@ namespace GitTest
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            string moreData = "Text";
 
             Test = new Test();
 
