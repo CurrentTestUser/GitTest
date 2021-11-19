@@ -6,6 +6,7 @@ namespace GitTest
     class Program
     {
         public static Test Test;
+        public static byte LastByte;
 
         static void Main(string[] args)
         {
@@ -23,5 +24,13 @@ namespace GitTest
             }
 
         }
+
+        private static byte GetRandomByte()
+        {
+            byte[] b = new byte[1];
+            new Random().NextBytes(b);
+            return b[0];
+        }
+
     }
 }
