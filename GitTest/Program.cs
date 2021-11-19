@@ -31,14 +31,9 @@ namespace GitTest
 
         private static byte GetRandomByte()
         {
-
-            ====== HEADER
             byte[] b3 = new byte[1];
-     <<<<<<<<<< Text
             new Random().NextBytes(b3);
-<<<<<<<<<<<< Text 2
             return b3[0];
-    ======== END
         }
 
     }
