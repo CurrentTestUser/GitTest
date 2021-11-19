@@ -9,6 +9,8 @@ namespace GitTest
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!");
+
             Test = new Test();
 
             while (true)
@@ -16,11 +18,6 @@ namespace GitTest
                 if(Console.ReadLine() == "e")
                 {
                     break;
-                }
-
-                if(Console.ReadLine() == "print")
-                {
-                    Test.ScenarioImporters[0].Speeches.ForEach(item => { Console.WriteLine($"{item.ID}\t{item.Line}\t{item.MyWar}\t"); });
                 }
 
             }
